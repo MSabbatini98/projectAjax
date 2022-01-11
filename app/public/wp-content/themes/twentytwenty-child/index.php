@@ -42,13 +42,11 @@ get_header();
   <div>
     <h1>JSON and AJAX first project </h1>
     <button id="btn_send">Fetch Info for 3 New Animals</button>
-    <button id="btn_send_all">Fetch ALL info API</button>
+    
+    <button id="btn_send_all">
+      <a href="#container_all">Fetch ALL info API</a>
+    </button>
     <button id="btn_alert">ALERT</button>
-  </div>
-
-  <div id="AAAAA">
-  <h2>Questo è il container di sopra : AAAAA  </h2>
-
   </div>
 
   <div id="container">
@@ -56,11 +54,13 @@ get_header();
   </div>
 
   <div id="container_all">
-    <h2>Questo è il container_all con afterend: container_all  </h2>
+    <h2>Questo è il container_all </h2>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis magni libero sunt hic vero ducimus non impedit, numquam doloremque. Earum libero aperiam facilis excepturi vel iusto illum quibusdam voluptatum!
   </p>
   </div>
+
+  
 </div>
 
 <?php

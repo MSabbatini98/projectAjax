@@ -96,7 +96,7 @@ function renderHTMLeasy(data, container) {
     var htmlString = "";
 
     for (i = 0; i < data.length; i++) {
-        htmlString += "<p>" + data[i].name + " is a " + data[i].species + " that likes to eat ";
+        htmlString += "<p> <span class='highlighted1'> " + data[i].name + "</span> "  + " is a " + data[i].species + " that likes to eat ";
         
         for (ii = 0; ii < data[i].foods.likes.length; ii++) {
         if (ii == 0) {
@@ -117,18 +117,18 @@ function renderHTMLeasy(data, container) {
         }
         htmlString += '.</p>';
     }
-    container.insertAdjacentHTML('afterbegin', htmlString);
+    container.insertAdjacentHTML('beforeend', htmlString);
 }
 
 // BTN_SEND_ALL crea e aggiunge html alla pagina
-function renderHTML(data, container) {
+function renderHTML(data, container_all) {
     var htmlString = "";
     // console.log(data);
     for (i = 0; i < data.length; i++) {
         htmlString += "<div class ='api_single'>" + "Id : " + data[i].id + "<br>Il titolo è :" + data[i].title + ".</div>";
     }
-    // console.log(container);
-    container.insertAdjacentHTML('afterend', htmlString);
+    // console.log(container_all);
+    container_all.insertAdjacentHTML('beforeend', htmlString);
     btn_send_all.classList.add("blue");
 
 }
