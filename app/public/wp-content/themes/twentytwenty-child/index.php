@@ -6,15 +6,9 @@
 get_header();
 ?>
 
-<div>
-    <h1>JSON and AJAX first project </h1>
-    <button id="btn_send">Fetch Info for 3 New Animals</button>
-    <button id="btn_send_all">Fetch Info for ALL Animals</button>
-    <button id="btn_alert">ALERT</button>
 
-  </div>
 
-<table>
+<!-- <table>
   <thead>
     <th class="col-1-6" id="first-column">
       1st column
@@ -35,14 +29,38 @@ get_header();
       6th column
     </th>
   </thead>
-</table>
+  <tbody>
+    <tr>
+      <td>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quam alias maiores voluptatem. Nemo magni omnis incidunt voluptates voluptatum ipsa voluptatibus officiis. Laudantium, quisquam corporis rerum itaque dolore accusantium exercitationem.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> -->
 
-<div id="AAAAA">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatibus tempora explicabo laborum pariatur? Sapiente ad quaerat ea laudantium dolor quidem adipisci! Iste, laudantium laborum sunt quas aut magni voluptates.</p>
-</div>
+<div class="main">
+  <div>
+    <h1>JSON and AJAX first project </h1>
+    <button id="btn_send">Fetch Info for 3 New Animals</button>
+    <button id="btn_send_all">Fetch ALL info API</button>
+    <button id="btn_alert">ALERT</button>
+  </div>
 
-<div id="container">
-  <p>2222312313123123123122223123132131231312312312312222312313213123131231231231222231231321312313123123123122223123132131231312312312312222312313213123131231231231</p>
+  <div id="AAAAA">
+  <h2>Questo è il container di sopra : AAAAA  </h2>
+
+  </div>
+
+  <div id="container">
+    <h2>Questo è il container di sotto : container  </h2>
+  </div>
+
+  <div id="container_all">
+    <h2>Questo è il container_all con afterend: container_all  </h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis magni libero sunt hic vero ducimus non impedit, numquam doloremque. Earum libero aperiam facilis excepturi vel iusto illum quibusdam voluptatum!
+  </p>
+  </div>
 </div>
 
 <?php

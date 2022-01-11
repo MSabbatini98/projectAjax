@@ -15,7 +15,18 @@ body {
     font-weight: bold!important;
     font-size: 30px !important;
 }
+.main {
+  width: 90%;
+  margin: auto;
+}
+p{
+  font-size: 20px;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  color: darkblue;
+  font-variant: small-caps;
+}
 .col-1-6 {
     background-color: grey;
     cursor: pointer;
@@ -36,3 +47,26 @@ body {
   button {
       background-color: darkgreen !important;
   }
+
+  #container_all {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:auto;
+    margin-bottom: 100px;
+    border: solid 3px black;
+    border-radius: 20px;
+  }
+
+  .api_single{
+    padding: 10px;
+    width: 30%;
+    height: 200px;
+    margin: 20px auto;
+    border: dashed 1px red;
+    border-radius: 10px;
+    overflow-y: scroll;
+  }
+

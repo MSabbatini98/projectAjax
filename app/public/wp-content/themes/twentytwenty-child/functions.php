@@ -10,9 +10,9 @@
 	wp_enqueue_style('child-style', get_stylesheet_directory_uri() .'/style.css', array('parent-style'));
 	}
 	
-	// !! Additional CSS files
+	// !! Link JS file
 	// echo (get_stylesheet_directory().'/main.js');
 	add_action('wp_enqueue_scripts', 'main_js');
 	function main_js() {
-	wp_enqueue_script('custom_js', get_stylesheet_directory_uri().'/main.js');
+		wp_enqueue_script('custom_js', get_stylesheet_directory_uri().'/main.js');
 	}
